@@ -1,7 +1,7 @@
 const date = new Date();
 const day = String(date).split(' ')[2]
 
-if(parseInt(day)<29) && document.location.hostname=='www.youtube.com'){
+if(parseInt(day)>2 && parseInt(day)!=30) && document.location.hostname=='www.youtube.com'){
   save()
 }
 
